@@ -86,7 +86,7 @@
 		try{
 		require(`./profile/${command}.js`).run(client, message, args, attachment);
 		}catch(err){
-			console.log(err)
+		//	console.log(err)
 		}
 	}
 }
