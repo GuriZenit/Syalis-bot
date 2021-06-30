@@ -135,7 +135,7 @@ module.exports = {
 				case 'pf':
 				case 'pr':
 				case 'profile':
-				   run('perfil');
+				   run('profile');
 				   break;
 
 				case '<@415395123086491658>':
