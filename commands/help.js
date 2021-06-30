@@ -17,7 +17,7 @@ module.exports = {
 					value: '`Mostro o seu avatar ou da pessoa mencionada!`'
 				},
 				{
-					name: `${p}perfil`,
+					name: `${p}profile`,
 					value: '`Mostra o seu perfil!`'
 				},
 				{
