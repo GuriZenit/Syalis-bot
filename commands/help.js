@@ -16,10 +16,10 @@ module.exports = {
 					name: `${p}avatar <@menção>`,
 					value: '`Mostro o seu avatar ou da pessoa mencionada!`'
 				},
-				/*{
-					name: `${p}say <mensagem>`,
-					value: '`Repete a mensagem enviada por você!`'
-				},*/
+				{
+					name: `${p}perfil`,
+					value: '`Mostra o seu perfil!`'
+				},
 				{
 					name: `${p}ping`,
 					value: '`Tempo entre o envio e a resposta do comando em MS!`'
@@ -130,6 +130,13 @@ module.exports = {
 				case 'me':
 					run('message');
 					break;
+					
+				case 'perfil':
+				case 'pf':
+				case 'pr':
+				case 'profile':
+				   run('perfil');
+				   break;
 
 				case '<@415395123086491658>':
 					run('guri');
