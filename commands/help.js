@@ -133,7 +133,6 @@ module.exports = {
 					
 				case 'perfil':
 				case 'pf':
-				case 'pr':
 				   run('profile');
 				   break;
 
