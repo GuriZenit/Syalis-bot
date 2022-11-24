@@ -1,9 +1,10 @@
 {
-	const Discord = require('discord.js');
-	const client = new Discord.Client();
-	const config = require('./config');
-	const Enmap = require('enmap');
-
+	const { Client } = require('discord.js');
+	const allIntents = new Intents(7796);
+	const client = new Client({
+	    intents: allIntents
+	});
+	
 	client.settings = new Enmap({
 		name: 'settings',
 		fetchAll: false,
